@@ -1,0 +1,45 @@
+:root {
+    --imagem-de-fundo: url()
+}
+
+body{
+    background: no-repeat url("./image.png");
+    color: #ffffff; 
+    margin:0;
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgba(6, 6, 6, 0.71); 
+}
+
+.titulo h1{
+    margin:0;
+    font-size: 30px;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    min-width: 200px;
+    gap:20px;
+    padding-top:20px;
+    justify-items: center;
+    
+}
+
+.dia_1, .dia_2, .dia_3 {
+    background-color: #ebebeb;
+    color: #000;
+    padding:5px;
+    background-size: cover;
+    border: 2px solid #000000; 
+}
+
+.dia_1 h1, .dia_2 h1, .dia_3 h1{
+    font-size:40px;
+}
+
+.dia_1 h2, .dia_2 h2, .dia_3 h2{
+    font-size:14px;
+}
